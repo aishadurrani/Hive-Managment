@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+	
+	<title>Hive Management</title>
+
+</head>
+
+<header>
+
+	<div class="header">
+		<div class="container">
+			<div class="jumbotron">
+
+	 			<h1><strong>Hive Management</strong></h1>
+	 		
+
+			</div>
+		
+
+		
+		</div>
+	 </div> 
+
+
+	</header>
+
+
+
+			<br>
+			<br>
+			
+	
+	<body>
+				
+
+
+			<div class="container">
+			
+			<div class="card">
+  				<h2 class="card-header">Introduction</h2>
+  					<div class="card-body">
+
+  					<p class="text">The Apache Hive data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL. Structure can be projected onto data already in storage. A command line tool and JDBC driver are provided to connect users to Hive.</p>
+
+  					<br>
+  					<br>
+
+  					<p class="text">One of my Data Engineering Projects consisted of structuring 2 Data Sets, Patent and NASDAQ.  Internal and external tables were created and queries were provided to retrieve desired results.</p>
+
+  					<br>
+  					<br>
+
+  					<p class="text">Below is a description of that process.</p>
+
+
+  					<br>
+  					<br>
+  					<br>
+
+  					<h3>Hive Part One</h3>
+
+  					<br>
+  					<br>
+
+  					<p class="text">1. Create an internal table for the Patent data set. (Make sure not to include the header row)
+
+  					<br>
+  					<br>
+
+  					First we create a table with the name of temp_demoData.  This table helps load data from an external location</p>
+
+  					<br>
+  					<br>
+
+  					<p class="text">
+
+  					 		<img class="card-image1" src="images/hive1.png" alt="Temp Table">
+
+  					 </p>
+
+  					 <br>
+  					 <br>
+
+
+  					 <p class="text">Then is the data_patent table which contains the rows in the table with their data type.</p>
+
+  					<br>
+  					<br>
+
+  					<p class="text">
+
+  					 		<img class="card-image2" src="images/hive2.png" alt="Data Patent Table">
+
+  					 </p>
+
+  					 <br>
+  					 <br>
+
+  					  <p class="text">We add the inserts</p>
+
+  					<br>
+  					<br>
+
+  					<p class="text">
+
+  					 		<img class="card-image3" src="images/hive3.png" alt="Inserts">
+
+  					 </p>
+
+  					 
+  					 <br>
+	   				 <br>
+	   				 <br>
+
+	   				
+					    	<p id= "jar">🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯</p>	
+
+	   				 <br>
+	   				 <br>
+	   				 <br>
+
+
+  					 <p class="text">2. Create an external table with dynamic partitioning for Patent data set so that it can be used efficiently for queries which require looking into patents granted for a given year. (Use data from previous table and partition by Grant Year)</p>
+
+
+  					 <br>
+  					 <br>
+
+  					 <p class="text">
+
+  					 		<img class="card-image4" src="images/hive4.png" alt="External 1">
+
+  					 </p>
+
+	  				<br>
+	   				<br>
+	   				<br>
+
+	   				
+						<p id= "jar">🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯</p>	
+
+	   				<br>
+	   				<br>
+	   				<br>
+
+  					 <p class="text">Two queries ran to retrieve selected results.</p>
+
+
+  					 <br>
+  					 <br>
+
+  					 <div class="container">
+
+
+						 <div class="row">
+
+   								 <div class="col">
+   								 	
+
+					 			   	  <p class="text"><h6><u>Find out the number of patents granted in the year 1963.</u></h6></p>
+
+					 				    <br>
+					 				    <br>
+
+
+     									     <img class="card-image5" src="images/hive5.png" alt="Query 1">
+
+     								
+
+   								 </div>
+
+
+    							 <div class="col">
+
+    							 	   <p class="text"><h6><u>Find out the number of patents granted in each country in the year 1999.</u></h6></p>
+
+    							 	   <br>
+
+     								     	<img class="card-image6" src="images/hive6.png" alt="Query 2">	
+
+     									
+    							 </div>
+ 						  </div>
+
+   				</div>	
+
+   				<br>
+   				<br>
+
+   				<p class="text">This concludes part one and Patent Data Sets</p>
+
+   				<br>
+   				<br>
+   				<br>
+
+   				
+					<p id= "jar">🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯</p>	
+
+   				<br>
+   				<br>
+   				<br>
+
+
+  					<h3>Hive Part Two</h3>
+
+  					<br>
+  					<br>
+
+  					<p class="text">1.Create an external table for NASDAQ daily prices data set.
+
+  						<br>
+  						<br>
+  						We create an external table with the name of daily_prices_temp. This table helps load data from an external location</p>
+
+  					<br>
+  					<br>
+
+  					<p class="text">
+
+  					 		<img class="card-image7" src="images/hive7.png" alt="Temp Table">
+
+  					 </p>
+
+  					 <br>
+  					 <br>
+
+
+  					 <p class="text">Then is the external daily_prices table which contains the rows in the table with their data type.</p>
+
+  					<br>
+  					<br>
+
+  					<p class="text">
+
+  					 		<img class="card-image8" src="images/hive8.png" alt="Daily Prices Table">
+
+  					 </p>
+
+  					 <br>
+  					 <br>
+
+  					  <p class="text">We add the inserts</p>
+
+  					<br>
+  					<br>
+
+  					<p class="text">
+
+  					 		<img class="card-image9" src="images/hive9.png" alt="Inserts">
+
+  					 </p>
+
+  					 <br>
+		   			 <br>
+		   			 <br>
+
+		   				
+							<p id= "jar">🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯</p>	
+
+		   			 <br>
+		   			 <br>
+		   			 <br>
+
+
+  					 <p class="text">2.Create an external table for NASDAQ dividends data set.
+
+  						<br>
+  						<br>
+
+  						We create an external table with the name of dividends_data_temp. This table helps load data from an external location</p>
+
+  					<br>
+  					<br>
+
+  					<p class="text">
+
+  					 		<img class="card-image10" src="images/hive10.png" alt="Temp Table">
+
+  					 </p>
+
+  					 <br>
+  					 <br>
+
+
+  					  <p class="text">Then is the external dividends_data table which contains the rows in the table with their data type.</p>
+
+  					<br>
+  					<br>
+
+  					<p class="text">
+
+  					 		<img class="card-image11" src="images/hive11.png" alt="Dividends Data Table">
+
+  					 </p>
+
+  					 <br>
+  					 <br>
+
+  					  <p class="text">We add the inserts</p>
+
+  					<br>
+  					<br>
+
+  					<p class="text">
+
+  					 		<img class="card-image12" src="images/hive12.png" alt="Inserts">
+
+  					 </p>
+
+  					 
+  					 <br>
+	   				 <br>
+	   				 <br>
+
+	   				
+					    	<p id= "jar">🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯🍯</p>	
+
+	   				 <br>
+	   				 <br>
+	   				 <br>
+
+  					 <p class="text">Four queries ran to retrieve selected results.</p>
+
+
+  					 <br>
+  					 <br>
+
+  					 <div class="container">
+
+
+						 <div class="row">
+
+   								 <div class="col">
+   								 	
+
+					 			   	  <p class="text"><h6><u>Find out total volume sale for each stock symbol which has a closing price more than $5.</u></h6></p>
+
+					 				    <br>
+					 				    <br>
+
+
+     									     <img class="card-image13" src="images/hive13.png" alt="Query 1">
+
+     								
+
+   								 </div>
+
+
+    							 <div class="col">
+
+    							 	   <p class="text"><h6><u>Find out the highest price in the history for each stock symbol.</u></h6></p>
+
+    							 	   <br>
+
+     								     	<img class="card-image14" src="images/hive14.png" alt="Query 2">	
+
+     									
+    							 </div>
+ 						  </div>
+
+   				</div>	
+
+   				<br>
+   				<br>
+
+
+   				<div class="container">
+
+
+						 <div class="row">
+
+   								 <div class="col">
+   								 	
+
+					 			   	  <p class="text"><h6><u>Find out highest dividends given for each stock symbol in entire history.</u></h6></p>
+
+					 				    <br>
+					 				    <br>
+
+
+     									     <img class="card-image15" src="images/hive15.png" alt="Query 3">
+
+     								
+
+   								 </div>
+
+
+    							 <div class="col">
+
+    							 	   <p class="text"><h6><u>Find out the highest price and highest dividends for each stock symbol if the highest price and highest dividends exist.</u></h6></p>
+
+    							 	   <br>
+
+     								     	<img class="card-image16" src="images/hive16.png" alt="Query 4">	
+
+     									
+    							 </div>
+ 						  </div>
+
+   				</div>	
+
+   				<br>
+   				<br>
+   				<br>
+
+
+
+
+
+   				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<br>
+					<br>
+					<br>
+
+
+
+				  </div>
+    		   </div>
+			</div>
+    
+
+
+		  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+	
+			
+
+					
+
+
+</body>
+
+
+	<footer>Aisha Durrani - PBPS</footer>
+
+
+
+
+</html>

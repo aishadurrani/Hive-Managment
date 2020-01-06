@@ -1,0 +1,643 @@
+body {
+
+	
+	background-image: url("hive.jpg");
+	
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+	     background-position: center center;	
+	
+	
+	
+
+
+}
+
+
+
+.jumbotron {
+
+	background-color: goldenrod;
+
+	
+
+
+}
+
+
+
+h1 {
+	text-align: center;
+	font-size: 75px;
+	font-family: fantasy;
+	color: black;
+	font-weight: bold;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+	font-family: fantasy;
+	color: black;
+	font-weight: bold;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+
+
+h3 {
+	text-align: center;
+	font-size: 35px;
+	font-family: fantasy;
+	color: goldenrod;
+	font-weight: bold;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+h4 {
+	text-align: center;
+	font-size: 30px;
+	font-family: fantasy;
+	color: goldenrod;
+	text-decoration: underline;
+	font-weight: bold;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+
+h5 {
+	text-align: left;
+	font-size: 25px;
+	font-family: fantasy;
+	color: goldenrod;
+	text-decoration: underline;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+
+h6 {
+	text-align: left;
+	font-size: 20px;
+	font-family: fantasy;
+	color: goldenrod;
+	text-decoration: underline;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+
+
+
+
+
+
+
+
+
+.card-header {
+	text-align: center;
+	font-size: 35px;
+	font-family: fantasy;
+	color: black;
+	text-decoration: underline;
+	background-color: goldenrod;
+	
+	
+}
+
+
+
+
+
+
+.card-body {
+	background-color: white; 
+	font-family: Georgia, serif;
+	font-size: 16px;
+	color: black;
+}
+
+.text {
+	font-family: Georgia, serif;
+	color: black;
+	font-size: 16px;
+}
+
+
+
+.card-image1 {
+
+  width: 100%;
+  height: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image2 {
+
+  width: 100%;
+  height: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image3 {
+
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 380px;
+}
+
+.card-image4 {
+
+  width: 100%;
+  height: 300px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image5 {
+
+  width: 100%;
+  height: 160px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image6 {
+
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 160px;
+}
+
+
+.card-image7 {
+
+  width: 100%;
+  height: 180px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image8 {
+
+  width: 100%;
+  height: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image9 {
+
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 300px;
+}
+
+
+.card-image10 {
+
+  width: 100%;
+  height: 180px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image11 {
+
+  width: 100%;
+  height: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image12 {
+
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 300px;
+}
+
+
+.card-image13 {
+
+  width: 100%;
+  height: 160px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image14 {
+
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 160px;
+}
+
+.card-image15 {
+
+  width: 100%;
+  height: 160px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image16 {
+
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 160px;
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+#jar {
+
+  text-align: center;
+  position: relative;
+}
+
+
+
+
+
+footer {
+	font-size: 18px;
+	font-family: fantasy;
+	color: black;
+	font-weight: bold;
+	margin-top: 60px;
+	padding-bottom: 10px;
+	position: static;
+   	left: 0;
+   	bottom: 0;
+   	height: 40px;
+   	width: 100%;
+   	text-align: center;
+   	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+  font-family: fantasy;
+  color: black;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: fantasy;
+  color: black;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+
+h3 {
+  text-align: center;
+  font-size: 35px;
+  font-family: fantasy;
+  color: goldenrod;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h4 {
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+  color: goldenrod;
+  text-decoration: underline;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+h5 {
+  text-align: left;
+  font-size: 25px;
+  font-family: fantasy;
+  color: goldenrod;
+  text-decoration: underline;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+h6 {
+  text-align: left;
+  font-size: 20px;
+  font-family: fantasy;
+  color: goldenrod;
+  text-decoration: underline;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+
+
+
+
+
+
+
+
+.card-header {
+  text-align: center;
+  font-size: 35px;
+  font-family: fantasy;
+  color: black;
+  text-decoration: underline;
+  background-color: goldenrod;
+  
+  
+}
+
+
+
+
+
+
+.card-body {
+  background-color: white; 
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: black;
+}
+
+.text {
+  font-family: Georgia, serif;
+  color: black;
+  font-size: 16px;
+}
+
+
+
+.card-image1 {
+
+  width: 100%;
+  height: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image2 {
+
+  width: 100%;
+  height: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image3 {
+
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 380px;
+}
+
+.card-image4 {
+
+  width: 100%;
+  height: 300px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image5 {
+
+  width: 100%;
+  height: 160px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image6 {
+
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 160px;
+}
+
+
+.card-image7 {
+
+  width: 100%;
+  height: 180px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image8 {
+
+  width: 100%;
+  height: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image9 {
+
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 300px;
+}
+
+
+.card-image10 {
+
+  width: 100%;
+  height: 180px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image11 {
+
+  width: 100%;
+  height: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image12 {
+
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 300px;
+}
+
+
+.card-image13 {
+
+  width: 100%;
+  height: 160px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image14 {
+
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 160px;
+}
+
+.card-image15 {
+
+  width: 100%;
+  height: 160px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-image16 {
+
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 160px;
+}
+
+
+
+#jar {
+
+  text-align: center;
+  position: relative;
+}
+
+
+
+
+
+footer {
+  font-size: 18px;
+  font-family: fantasy;
+  color: black;
+  font-weight: bold;
+  margin-top: 60px;
+  padding-bottom: 10px;
+  position: static;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+
+
+
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+
