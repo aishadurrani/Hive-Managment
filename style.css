@@ -330,10 +330,11 @@ footer {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
+
 h1 {
   text-align: center;
   font-size: 75px;
-  font-family: fantasy;
+  font-family: Open Sans;
   color: black;
   font-weight: bold;
   text-shadow:
@@ -347,7 +348,7 @@ h1 {
 h2 {
   text-align: center;
   font-size: 40px;
-  font-family: fantasy;
+  font-family: Open Sans;
   color: black;
   font-weight: bold;
   text-shadow:
@@ -362,7 +363,7 @@ h2 {
 h3 {
   text-align: center;
   font-size: 35px;
-  font-family: fantasy;
+  font-family: Open Sans;
   color: goldenrod;
   font-weight: bold;
   text-shadow:
@@ -375,7 +376,7 @@ h3 {
 h4 {
   text-align: center;
   font-size: 30px;
-  font-family: fantasy;
+  font-family: Open Sans;
   color: goldenrod;
   text-decoration: underline;
   font-weight: bold;
@@ -390,7 +391,7 @@ h4 {
 h5 {
   text-align: left;
   font-size: 25px;
-  font-family: fantasy;
+  font-family: Open Sans;
   color: goldenrod;
   text-decoration: underline;
   text-shadow:
@@ -404,7 +405,7 @@ h5 {
 h6 {
   text-align: left;
   font-size: 20px;
-  font-family: fantasy;
+  font-family: Open Sans;
   color: goldenrod;
   text-decoration: underline;
   text-shadow:
@@ -425,8 +426,8 @@ h6 {
 
 .card-header {
   text-align: center;
-  font-size: 35px;
-  font-family: fantasy;
+  font-size: 38px;
+  font-family: Open Sans;
   color: black;
   text-decoration: underline;
   background-color: goldenrod;
@@ -442,14 +443,14 @@ h6 {
 .card-body {
   background-color: white; 
   font-family: Georgia, serif;
-  font-size: 16px;
+  font-size: 24px;
   color: black;
 }
 
 .text {
   font-family: Georgia, serif;
   color: black;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 
@@ -458,23 +459,19 @@ h6 {
 
   width: 100%;
   height: 150px;
-  padding-left: 10%;
-  padding-right: 10%;
+ 
 }
 
 .card-image2 {
 
   width: 100%;
   height: 150px;
-  padding-left: 10%;
-  padding-right: 10%;
+
 }
 
 .card-image3 {
 
-  width: 100%;
-  padding-left: 20%;
-  padding-right: 20%;
+  width: 100%; 
   height: 380px;
 }
 
@@ -482,23 +479,19 @@ h6 {
 
   width: 100%;
   height: 300px;
-  padding-left: 10%;
-  padding-right: 10%;
+ 
 }
 
 .card-image5 {
 
   width: 100%;
   height: 160px;
-  padding-left: 10%;
-  padding-right: 10%;
+  
 }
 
 .card-image6 {
 
   width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
   height: 160px;
 }
 
@@ -507,23 +500,19 @@ h6 {
 
   width: 100%;
   height: 180px;
-  padding-left: 10%;
-  padding-right: 10%;
+ 
 }
 
 .card-image8 {
 
   width: 100%;
   height: 150px;
-  padding-left: 10%;
-  padding-right: 10%;
+  
 }
 
 .card-image9 {
 
   width: 100%;
-  padding-left: 20%;
-  padding-right: 20%;
   height: 300px;
 }
 
@@ -532,23 +521,19 @@ h6 {
 
   width: 100%;
   height: 180px;
-  padding-left: 10%;
-  padding-right: 10%;
+ 
 }
 
 .card-image11 {
 
   width: 100%;
   height: 150px;
-  padding-left: 10%;
-  padding-right: 10%;
+ 
 }
 
 .card-image12 {
 
   width: 100%;
-  padding-left: 20%;
-  padding-right: 20%;
   height: 300px;
 }
 
@@ -557,15 +542,12 @@ h6 {
 
   width: 100%;
   height: 160px;
-  padding-left: 10%;
-  padding-right: 10%;
+  
 }
 
 .card-image14 {
 
   width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
   height: 160px;
 }
 
@@ -573,15 +555,12 @@ h6 {
 
   width: 100%;
   height: 160px;
-  padding-left: 10%;
-  padding-right: 10%;
+  
 }
 
 .card-image16 {
 
   width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
   height: 160px;
 }
 
@@ -616,7 +595,6 @@ footer {
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-
 
 
 
